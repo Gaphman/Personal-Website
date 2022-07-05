@@ -1,0 +1,137 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+font-size: 90px;
+margin: 50px auto 0 auto;
+color: #66BFBF;
+font-family: 'Sacramento', cursive;
+
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-style:none;
+  border-top-style:dotted;
+  border-color: #EAF6F6;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+/*****BODY CONTAINERS BEGIN******/
+.profile {
+  margin: 100px auto;
+}
+
+.top-container {
+  background-color:  #E4F9F5;
+  position: relative;
+  margin: 0;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.Webdev {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.Graphics {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/*******BODY CONTAINERS END********/
+
+/*****ANCHOR TAGS Starts*******/
+.footer-link {
+  color: #11999E;
+  padding-right: 20px;
+  font-family: 'Montserrat',sans-serif;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #EAF6F6
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+button {
+ background-color: #11999E;
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 16px;
+ border-radius: 8px;
+ transition-duration: 0.4s;
+}
+
+.btn {
+  margin: 50px auto 50px auto;
+}
+
+button:hover {
+background-color: #30e3cb;
+color: white;
+}
+
+.contact-me-description {
+  width: 40%;
+  margin: auto;
+}
+
+/******ANCHOR TAGS END*****/
+
+/******CLOUD****/
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
